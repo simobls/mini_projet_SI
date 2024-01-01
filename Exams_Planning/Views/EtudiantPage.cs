@@ -29,7 +29,7 @@ namespace Exams_Planning.Views
             if (LoggedInEtudiant != null)
             {
                 // Display student information in label1
-                label1.Text = $"Student Info: Apogee - {LoggedInEtudiant.Apogee}, Niveau - {LoggedInEtudiant.Niveau}";
+                label1.Text = $"Student Info: Apogee - {LoggedInEtudiant.Apogee}";
             }
         }
 

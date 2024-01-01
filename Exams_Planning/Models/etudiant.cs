@@ -11,11 +11,11 @@ namespace Exams_Planning.Models
         private int apogee;
         private string password;
         private string email;
-        private niveau niveau;
+        
 
         public int Apogee {  get { return apogee; } set { apogee = value; } }
         public string Password { get { return password; } set { password = value; } }
         public string Email { get { return email; } set { email = value; } }
-        public niveau Niveau { get {  return niveau; } set { niveau = value; } }
+        
     }
 }

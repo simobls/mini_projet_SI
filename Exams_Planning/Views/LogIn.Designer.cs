@@ -42,7 +42,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(257, 120);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 29);
             this.button1.TabIndex = 0;
@@ -53,15 +53,16 @@
             // textEmail
             // 
             this.textEmail.Location = new System.Drawing.Point(58, 125);
-            this.textEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textEmail.Margin = new System.Windows.Forms.Padding(2);
             this.textEmail.Name = "textEmail";
             this.textEmail.Size = new System.Drawing.Size(154, 20);
             this.textEmail.TabIndex = 1;
+            this.textEmail.TextChanged += new System.EventHandler(this.textEmail_TextChanged);
             // 
             // textPassword
             // 
             this.textPassword.Location = new System.Drawing.Point(58, 174);
-            this.textPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textPassword.Margin = new System.Windows.Forms.Padding(2);
             this.textPassword.Name = "textPassword";
             this.textPassword.Size = new System.Drawing.Size(154, 20);
             this.textPassword.TabIndex = 2;
@@ -91,9 +92,9 @@
             // 
             this.radioAdmin.AutoSize = true;
             this.radioAdmin.Location = new System.Drawing.Point(395, 101);
-            this.radioAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioAdmin.Margin = new System.Windows.Forms.Padding(2);
             this.radioAdmin.Name = "radioAdmin";
-            this.radioAdmin.Size = new System.Drawing.Size(103, 17);
+            this.radioAdmin.Size = new System.Drawing.Size(110, 20);
             this.radioAdmin.TabIndex = 8;
             this.radioAdmin.TabStop = true;
             this.radioAdmin.Text = "Je suis un admin";
@@ -103,9 +104,9 @@
             // 
             this.radioEtud.AutoSize = true;
             this.radioEtud.Location = new System.Drawing.Point(395, 136);
-            this.radioEtud.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioEtud.Margin = new System.Windows.Forms.Padding(2);
             this.radioEtud.Name = "radioEtud";
-            this.radioEtud.Size = new System.Drawing.Size(113, 17);
+            this.radioEtud.Size = new System.Drawing.Size(120, 20);
             this.radioEtud.TabIndex = 9;
             this.radioEtud.TabStop = true;
             this.radioEtud.Text = "Je suis un etudiant";
@@ -115,9 +116,9 @@
             // 
             this.radioEnseign.AutoSize = true;
             this.radioEnseign.Location = new System.Drawing.Point(395, 165);
-            this.radioEnseign.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioEnseign.Margin = new System.Windows.Forms.Padding(2);
             this.radioEnseign.Name = "radioEnseign";
-            this.radioEnseign.Size = new System.Drawing.Size(127, 17);
+            this.radioEnseign.Size = new System.Drawing.Size(134, 20);
             this.radioEnseign.TabIndex = 10;
             this.radioEnseign.TabStop = true;
             this.radioEnseign.Text = "Je suis un enseignant";
@@ -126,7 +127,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(257, 165);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(71, 29);
             this.button2.TabIndex = 11;
@@ -147,8 +148,9 @@
             this.Controls.Add(this.textPassword);
             this.Controls.Add(this.textEmail);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LogIn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

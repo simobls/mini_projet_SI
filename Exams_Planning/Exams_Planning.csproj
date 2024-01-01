@@ -49,7 +49,6 @@
   <ItemGroup>
     <Compile Include="Models\admin.cs" />
     <Compile Include="Models\module.cs" />
-    <Compile Include="Models\niveau.cs" />
     <Compile Include="Views\DayUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

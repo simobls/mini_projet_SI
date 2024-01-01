@@ -12,3 +12,17 @@ C:\Users\simob\source\repos\SI\Exams_Planning\Exams_Planning\obj\Debug\Exams_Pla
 C:\Users\simob\source\repos\SI\Exams_Planning\Exams_Planning\obj\Debug\Exams_Planning.Views.EtudiantPage.resources
 C:\Users\simob\source\repos\SI\Exams_Planning\Exams_Planning\obj\Debug\Exams_Planning.Views.UserControlBlank.resources
 C:\Users\simob\source\repos\SI\Exams_Planning\Exams_Planning\obj\Debug\Exams_Planning.Models.DayUserControl.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.csproj.AssemblyReference.cache
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Models.DayUserControl.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Properties.Resources.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Views.adminDashboard.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Views.EtudiantPage.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Views.LogIn.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Views.UserControlBlank.resources
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.csproj.GenerateResource.cache
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.csproj.CoreCompileInputs.cache
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.exe
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.pdb
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\bin\Debug\Exams_Planning.exe.config
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\bin\Debug\Exams_Planning.exe
+C:\Users\simob\source\repos\mini_projet_SI\Exams_Planning\bin\Debug\Exams_Planning.pdb
