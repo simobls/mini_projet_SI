@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\admin.cs" />
+    <Compile Include="Models\examen.cs" />
+    <Compile Include="Models\lieu.cs" />
     <Compile Include="Models\module.cs" />
     <Compile Include="Models\niveau.cs" />
     <Compile Include="Views\DayUserControl.cs">
@@ -89,6 +91,12 @@
     <Compile Include="Views\LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\modulePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\modulePage.Designer.cs">
+      <DependentUpon>modulePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserControlBlank.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\modulePage.resx">
+      <DependentUpon>modulePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
