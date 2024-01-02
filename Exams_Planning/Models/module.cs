@@ -8,10 +8,12 @@ namespace Exams_Planning.Models
 {
     public class module
     {
-        private int nom;
+        private string nom;
         private enseignant prof;
+        private niveau niveau;
 
-        public int Nom { get { return nom; } set { nom = value; } }
+        public string Nom { get { return nom; } set { nom = value; } }
         public enseignant Prof { get { return prof; } set {  prof = value; } }
+        public niveau Niveau { get { return niveau; } set {  niveau = value; } }
     }
 }

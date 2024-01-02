@@ -83,7 +83,9 @@ namespace Exams_Planning.Views
                                         etudiantp.LoggedInEtudiant = new etudiant
                                         {
                                             Apogee = (int)reader[0],
-
+                                            Nom = reader[1].ToString(),
+                                            Prenom = reader[2].ToString(),
+                                            Niveau = new niveau() { Id = (int)reader[6], Name = "test" }
                                         };
                                         etudiantp.Show();
                                         this.Hide();
