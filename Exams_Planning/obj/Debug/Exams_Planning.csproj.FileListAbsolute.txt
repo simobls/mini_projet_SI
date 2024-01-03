@@ -61,3 +61,4 @@ C:\Users\simob\Source\Repos\mini_projet_SI\Exams_Planning\bin\Debug\Microsoft.Vi
 C:\Users\simob\Source\Repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.csproj.SuggestedBindingRedirects.cache
 C:\Users\simob\Source\Repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.exe.config
 C:\Users\simob\Source\Repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.csproj.CopyComplete
+C:\Users\simob\Source\Repos\mini_projet_SI\Exams_Planning\obj\Debug\Exams_Planning.Views.modulePage.resources

@@ -16,7 +16,7 @@ namespace Exams_Planning
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Views.LogIn());
+            Application.Run(new Views.modulePage());
         }
     }
 }

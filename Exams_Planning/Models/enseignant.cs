@@ -19,9 +19,12 @@ namespace Exams_Planning.Models
         private string tel;
         private module module;
 
+        private string fullname;
+
         public int Id { get { return id; } set {  id = value; } }
-        public string Name { get { return nom; } set { nom = value; } }
+        public string Nom { get { return nom; } set { nom = value; } }
         public string Prenom { get {  return prenom; } set {  prenom = value; } }
+        public string FullName() { fullname = $"{nom} {prenom}"; return fullname; }
         public string Email { get { return email; } set { email = value; } }
         public string Password { get { return password; } set { password = value; } }
         public string Tel { get { return tel; } set {  tel = value; } }
