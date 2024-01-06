@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +36,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Scaffolding.EntityFramework.12.0, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -64,8 +74,14 @@
       <DependentUpon>GESTION_EXAMSDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Models\admin.cs" />
+    <Compile Include="Models\examen.cs" />
+    <Compile Include="Models\lieu.cs" />
     <Compile Include="Models\module.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\petmodel.cs" />
+=======
+    <Compile Include="Models\niveau.cs" />
+>>>>>>> refs/remotes/origin/main
     <Compile Include="Views\DayUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +111,12 @@
     <Compile Include="Views\LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\modulePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\modulePage.Designer.cs">
+      <DependentUpon>modulePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserControlBlank.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -115,6 +137,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\adminDashboard.resx">
       <DependentUpon>adminDashboard.cs</DependentUpon>
@@ -125,9 +148,13 @@
     <EmbeddedResource Include="Views\LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\modulePage.resx">
+      <DependentUpon>modulePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <None Include="GESTION_EXAMSDataSet.xsc">
       <DependentUpon>GESTION_EXAMSDataSet.xsd</DependentUpon>
     </None>
@@ -150,6 +177,9 @@
     <None Include="GESTION_EXAMSDataSet1.xss">
       <DependentUpon>GESTION_EXAMSDataSet1.xsd</DependentUpon>
     </None>
+=======
+    <None Include="packages.config" />
+>>>>>>> refs/remotes/origin/main
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,7 +194,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Presenters\" />
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>

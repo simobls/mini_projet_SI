@@ -41,9 +41,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -184,6 +184,24 @@
             this.panel2.Size = new System.Drawing.Size(264, 614);
             this.panel2.TabIndex = 0;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Californian FB", 10F);
+            this.label9.Location = new System.Drawing.Point(62, 357);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(106, 24);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Aujourd\'hui";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
+            this.panel3.Location = new System.Drawing.Point(31, 354);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(25, 24);
+            this.panel3.TabIndex = 5;
+            // 
             // label8
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -196,24 +214,6 @@
             this.label8.Text = "month YEAR";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(196)))), ((int)(((byte)(54)))));
-            this.panel3.Location = new System.Drawing.Point(31, 354);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(25, 24);
-            this.panel3.TabIndex = 5;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Californian FB", 10F);
-            this.label9.Location = new System.Drawing.Point(62, 357);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(106, 24);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Aujourd\'hui";
             // 
             // adminDashboard
             // 

@@ -16,7 +16,11 @@ namespace Exams_Planning
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Form1());
+=======
+            Application.Run(new Views.modulePage());
+>>>>>>> refs/remotes/origin/main
         }
     }
 }
