@@ -77,11 +77,11 @@
     <Compile Include="Models\examen.cs" />
     <Compile Include="Models\lieu.cs" />
     <Compile Include="Models\module.cs" />
-<<<<<<< HEAD
+
     <Compile Include="Models\petmodel.cs" />
-=======
-    <Compile Include="Models\niveau.cs" />
->>>>>>> refs/remotes/origin/main
+    
+	<Compile Include="Models\niveau.cs" />
+
     <Compile Include="Views\DayUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -154,7 +154,7 @@
     <EmbeddedResource Include="Views\UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
+
     <None Include="GESTION_EXAMSDataSet.xsc">
       <DependentUpon>GESTION_EXAMSDataSet.xsd</DependentUpon>
     </None>
@@ -177,9 +177,9 @@
     <None Include="GESTION_EXAMSDataSet1.xss">
       <DependentUpon>GESTION_EXAMSDataSet1.xsd</DependentUpon>
     </None>
-=======
+
     <None Include="packages.config" />
->>>>>>> refs/remotes/origin/main
+
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
