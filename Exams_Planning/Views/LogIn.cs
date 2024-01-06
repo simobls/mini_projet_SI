@@ -15,7 +15,7 @@ namespace Exams_Planning.Views
 {
     public partial class LogIn : Form, ILogin
     {
-        public string connectionString = "Data Source=DESKTOP-LV5REMR\\SQLEXPRESS;Initial Catalog=GESTION_EXAMS;Integrated Security=True;";
+        public string connectionString = "Data Source=DESKTOP-FRALV82\\SQLEXPRESS;Initial Catalog=GESTION_EXAMS;Integrated Security=True;";
         private readonly ErrorProvider errorProvider = new ErrorProvider();
         public LogIn()
         {
